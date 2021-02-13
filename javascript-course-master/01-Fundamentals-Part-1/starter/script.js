@@ -22,12 +22,12 @@ let job1 = "programmer";
 let job2 = "teacher";
 
 console.log(myFirstJob);
-*/
+
 
 //let javaScript = true;
 //console.log(javaScript);
 
-//the typeof is operator like +,- and the result of typeof operator is a string witht he type of the value.
+//the typeof is operator like +,- and the result of typeof operator is a string with he type of the value.
 
 //console.log(typeof true);
 console.log(typeof javaScript);
@@ -47,3 +47,23 @@ console.log(typeof year);
 //important bug
 //it returns object
 console.log(typeof null);
+*/
+
+//let and const was introduce in ES6 
+//the legacy way of declaring variable is using var, prior to ES6
+
+//let variable is mutable
+let age = 30;
+age = 31;
+
+//const variable is immutable
+const birthYear = 1993;
+
+//empty const is illegal
+//const birthYear 
+//a good practice is declare const at first, be sure to use let when needed
+
+
+//this would work but!! it does not create variable in the scope, instead Javascript will create a property on the global object.
+lastName = "susan";
+console.log(lastName);
